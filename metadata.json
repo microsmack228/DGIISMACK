@@ -1,0 +1,6 @@
+{
+  "name": "Guardianes del Escudo Espacial",
+  "description": "Videojuego educativo de entrenamiento espacial de la Luna a Marte con datos de la NASA, Semáforo Cósmico y Diario de Logros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
