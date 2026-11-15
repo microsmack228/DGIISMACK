@@ -1,3 +1,7 @@
+import astroBotImg from '../assets/images/astro_bot_guide_1794682644608.jpg';
+import moonToMarsImg from '../assets/images/mission_moon_to_mars_1794682645041.jpg';
+import spaceKitchenImg from '../assets/images/space_food_kitchen_1794682646847.jpg';
+import veggieLabImg from '../assets/images/space_veggie_lab_1794682646412.jpg';
 import {
   AchievementDefinition,
   AstronautRank,
@@ -8,10 +12,10 @@ import {
 } from '../types/game';
 
 export const GAME_IMAGES = {
-  astroBot: '/src/assets/images/astro_bot_guide_1794682644608.jpg',
-  moonToMars: '/src/assets/images/mission_moon_to_mars_1794682645041.jpg',
-  veggieLab: '/src/assets/images/space_veggie_lab_1794682646412.jpg',
-  spaceKitchen: '/src/assets/images/space_food_kitchen_1794682646847.jpg',
+  astroBot: astroBotImg,
+  moonToMars: moonToMarsImg,
+  veggieLab: veggieLabImg,
+  spaceKitchen: spaceKitchenImg,
 };
 
 export const SPACE_WEATHER_MOCK_DATA: Record<SpaceWeatherLevel, SpaceWeatherScenario> = {
